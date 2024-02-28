@@ -16,16 +16,12 @@ function App() {
     <div className="App">
       <Router >
       <Navbar />
-        <Routes>
+        <Routes  >
           
-
           <Route path="/" element={<Home />} />
           <Route path="/gallery" element={<ResponsiveImageGallery />} />
           <Route path="/accouncements" element={<Accouncements/>} />
           <Route path="/achievement" element={<Achievement/>} />
-
-
-
           <Route path="/legal" element={<Legal />} />
           <Route path="/appointment" element={<Appointment />} />
           <Route path="*" element={<NotFound />} />

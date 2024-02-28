@@ -1,8 +1,7 @@
 {
-  "name": "health-plus",
+  "name": "ned-cowas-jee",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://alkaison.github.io/Health-Plus/",
   "dependencies": {
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
