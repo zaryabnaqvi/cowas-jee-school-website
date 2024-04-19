@@ -6,6 +6,8 @@ import Button from 'react-bootstrap/Button';
 
 const ResponsiveImageGallery = () => {
     const [modalContent, setModalContent] = useState(null);
+    const [achievements, setAchievements] = useState([]);
+
     const [showModal, setShowModal] = useState(false);
   
     const handleImageClick = (src) => {
@@ -25,6 +27,26 @@ const ResponsiveImageGallery = () => {
     const toggleModal = () => {
       setShowModal(!showModal);
     };
+
+
+    useEffect(() => {
+      fetchAchievements();
+  }, []);
+
+  const fetchAchievements = async () => {
+      try {
+          const response = await fetch('http://127.0.0.1:8080/achievement');
+          if (!response.ok) {
+              throw new Error('Failed to fetch data');
+          }
+          const data = await response.json();
+          setAchievements(data);
+          
+        
+      } catch (error) {
+          console.error('Error fetching data:', error);
+      }
+  };
    
 
   useEffect(()=>{
@@ -32,10 +54,32 @@ const ResponsiveImageGallery = () => {
       
   })
 
+
+  const [events, setevents] = useState([]);
+  const [years, setYears] = useState([]);
+
+  useEffect(() => {
+      fetchevents();
+  }, []);
+
+  const fetchevents = async () => {
+      try {
+          const response = await fetch('http://127.0.0.1:8080/event');
+          if (!response.ok) {
+              throw new Error('Failed to fetch data');
+          }
+          const data = await response.json();
+          setevents(data);
+        
+      } catch (error) {
+          console.error('Error fetching data:', error);
+      }
+  };
+
   return (
-    <div className="info-section">
-      <div className="info-title-content">
-        <h3 className="info-title">
+    <div className="info-section ">
+      <div className="info-title-content pt-5">
+        <h3 className="info-title pt-5">
           <span>Gallery</span>
         </h3>
         <p className="info-description">
@@ -44,8 +88,27 @@ const ResponsiveImageGallery = () => {
       </div>
      <hr/>
       <div id="gallery" className="container-fluid px-3">
-        <img src="https://source.unsplash.com/1600x1200" className="img-responsive" onClick={() => handleImageClick("https://source.unsplash.com/1600x1200")} />
-        <img src="https://source.unsplash.com/1024x768" className="img-responsive" onClick={() => handleImageClick("https://source.unsplash.com/1024x768")} />
+
+        {achievements.map((achievement,index)=>{
+
+return(<img src={achievement.imageUrl} className="img-responsive" onClick={() => handleImageClick(achievement.imageUrl)} />)
+
+        })}
+         {events.map((event,index)=>{
+
+return(<img src={event.imageUrl} className="img-responsive" onClick={() => handleImageClick(event.imageUrl)} />)
+
+        })}
+
+{achievements.map((achievement,index)=>{
+
+return(<img src={achievement.imageUrl} className="img-responsive" onClick={() => handleImageClick(achievement.imageUrl)} />)
+
+        })}
+
+
+
+        {/* <img src="https://source.unsplash.com/1024x768" className="img-responsive" onClick={() => handleImageClick("https://source.unsplash.com/1024x768")} />
         <img src="https://source.unsplash.com/1366x768" className="img-responsive" onClick={() => handleImageClick("https://source.unsplash.com/1366x768")} />
         <video className="vid" controls onClick={() => handleVideoClick("http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4")}>
           <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4" />
@@ -72,7 +135,7 @@ const ResponsiveImageGallery = () => {
         <img src="https://source.unsplash.com/768x992" className="img-responsive" onClick={() => handleImageClick("https://source.unsplash.com/768x992")} />
         <img src="https://source.unsplash.com/768x992" className="img-responsive" onClick={() => handleImageClick("https://source.unsplash.com/768x992")} />
         <img src="https://source.unsplash.com/768x992" className="img-responsive" onClick={() => handleImageClick("https://source.unsplash.com/768x992")} />
-        <img src="https://source.unsplash.com/768x992" className="img-responsive" onClick={() => handleImageClick("https://source.unsplash.com/768x992")} />
+        <img src="https://source.unsplash.com/768x992" className="img-responsive" onClick={() => handleImageClick("https://source.unsplash.com/768x992")} /> */}
 
       </div>
 

@@ -17,7 +17,7 @@ function Footer() {
             </p>
           </div>
 
-          <SubscribeNewsletter />
+          {/* <SubscribeNewsletter /> */}
         </div>
 
         <div className="ft-list">

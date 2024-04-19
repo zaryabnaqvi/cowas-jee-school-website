@@ -20,7 +20,7 @@ font-family:  'Rubik', sans-serif;
     /* overflow-wrap: break-word; */
     height: auto;
     margin: 64px 0;
-    justify-content: start;
+    justify-content: flex-start;
     position: relative;
     cursor: pointer;
     flex-direction: row;

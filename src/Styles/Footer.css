@@ -16,7 +16,9 @@
 .ft-title {
     color: #A60000;
     text-decoration: none;
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif;
+     */
+     font-family:"Brush Script MT Italic V2";
     font-size: 40px;
     font-weight: bold;
     letter-spacing: .8px;

@@ -35,7 +35,7 @@ function Navbar() {
       <h1 className="navbar-title">
         <img className="logo" src={schoolLogo}/>
         <Link to="/">
-          The Cowas Jee
+          The Cowasjee
         </Link>
       </h1>
 
@@ -47,7 +47,7 @@ function Navbar() {
           </Link>
         </li>
         <li>
-          <Link href="#services" className="navbar-links">
+          <Link to="/about" className="navbar-links">
             About
           </Link>
         </li>
@@ -57,7 +57,7 @@ function Navbar() {
           </Link>
         </li>
         <li>
-          <Link href="#reviews" className="navbar-links">
+          <Link to="/Events" className="navbar-links">
             Events
           </Link>
         </li>
@@ -101,9 +101,9 @@ function Navbar() {
             </Link>
           </li>
           <li>
-            <a onClick={openNav} href="#services">
+            <Link onClick={openNav} to="/about">
               About
-            </a>
+            </Link>
           </li>
           <li>
             <Link onClick={openNav} to="/achievement">
@@ -121,9 +121,9 @@ function Navbar() {
             </Link>
           </li>
           <li>
-            <a onClick={openNav} href="#contact">
-              Contact
-            </a>
+            <Link onClick={openNav} to="/Events">
+              Gallery
+            </Link>
           </li>
         </ul>
       </div>

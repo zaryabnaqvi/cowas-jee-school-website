@@ -3,8 +3,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 24px;
-    background:  #fff9f9;
+    text-align: left;
+    overflow: hidden;
+    /* gap: 24px; */
+    /* background:  #fff9f9; */
+    /* height: 100vh; */
 }
 /* Text section */
 .text-section {
@@ -13,27 +16,30 @@
 }
 .text-headline {
     margin-bottom: 12px;
-    color: rgb(77, 75, 75);
-    font-family: 'Rubik', sans-serif;
+    color: rgb(255, 255, 255);
+    font-family: 'Rubik';
     font-size: 22px;
     font-weight: bold;
     letter-spacing: .7px;
+    text-shadow: rgb(37, 37, 37) 1px 0 10px;
 }
 .text-title {
-    width: 500px;
-    color: black;
+    
+    color: rgb(255, 255, 255);
     font-family: 'Poppins', sans-serif;
     font-size: 40px;
     font-weight: bold;
+    text-shadow: rgb(37, 37, 37) 1px 0 10px;
 }
 .text-descritpion {
     width: 475px;
     margin: 32px 0;
-    color: rgb(77, 75, 75);
+    color: rgb(255, 255, 255);
     font-family: 'Rubik', sans-serif;
     font-size: 18px;
     letter-spacing: .7px;
     line-height: 1.6rem;
+    text-shadow: rgb(37, 37, 37) 1px 0 10px;
 }
 .text-appointment-btn {
     padding: 14px 20px;
@@ -65,29 +71,34 @@
     text-align: center;
 }
 .text-stats-container > p {
-    color: rgb(77, 75, 75);
+    color: rgb(255, 255, 255);
     font-family: 'Poppins', sans-serif;
     font-size: 22px;
     letter-spacing: .7px;
+    text-shadow: rgb(37, 37, 37) 1px 0 10px;
 }
 .text-stats-container p:first-child {
     margin-bottom: 8px;
-    color: #A60000;
+    color: #e34e4e;
     font-family: 'Rubik', sans-serif;
     font-size: 32px;
     font-weight: bold;
+    text-shadow: rgb(37, 37, 37) 1px 0 10px;
 }
 /* Image section */
 .hero-image-section {
     width: 40%;
-    max-width: 100%;
+    height: auto;
+    /* max-width: 100%; */
     text-align: center;
 }
 .hero-image1 {
-    width: 100%;
+    width: 300px;
+    
     height: auto;
-    border-radius: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
 }
 /* Scroll Btn */
 .scroll-up {

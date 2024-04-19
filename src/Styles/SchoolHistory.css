@@ -1,0 +1,79 @@
+.l-section-img2{
+    background-image:url("../Assets/school\ image\ -\ Copy.jpg") ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-position: 50% 0 ;
+    background-size: cover;
+    transition: 0s linear;
+    transition-property: background-position;
+    z-index: -111;
+}
+
+.l-section-img{
+    /* background-image:url("./assets/images/hussain-bg.webp") ; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-position: 50% 0 ;
+    background-size: cover;
+    transition: 0s linear;
+    transition-property: background-position;
+    z-index: -111;
+}
+
+
+
+.l-section-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    bottom: 0;
+    z-index: -111;
+}
+
+
+.l-section{
+    position: relative;
+    margin: 0 auto;
+}
+
+.l-section.full_height {
+    min-height: 100vh;
+}
+
+.l-section.height_medium {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.l-height{
+position: relative;
+margin: 0 auto;
+z-index: -111;
+}
+
+
+section.full_height.valign_center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: -111;
+}
+
+
+@media screen and (max-width: 600px){
+.l-sidebar, .l-section.height_small, .l-section.height_medium {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+
+}
+ 

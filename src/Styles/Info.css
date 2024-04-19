@@ -4,7 +4,7 @@
     background-color: white;
 }
 .info-title-content {
-    margin: 64px 0 128px 0;
+    /* padding: 64px 0 128px 0; */
 }
 .info-title {
     font-family: 'Poppins', sans-serif;
@@ -19,7 +19,7 @@
     position: absolute;
     width: 75%;
     height: 4px;
-    background-color: #9D2553;
+    background-color: #9d2525;
     border-radius: 8px;
     left: 0;
     bottom: -12px;

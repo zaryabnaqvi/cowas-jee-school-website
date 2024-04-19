@@ -1,11 +1,11 @@
 import React from 'react'
 import "../Styles/Notifications.css"
 
-const Notification = () => {
+const Notification = ({type,title,description,issueDate}) => {
     return (
       <div className="task" draggable={true}>
         <div className="tags">
-          <span className="tag">info</span>
+          <span className="tag">{type}</span>
           <button className="options">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -35,7 +35,7 @@ const Notification = () => {
           </button>
         </div>
         <p>
-        The Cowasjee School at NEDUET will remain closed on Monday 5th February for Kashmir Day and from Tuesday 6th February till Friday 9th February 2024 on accounts of Elections as per the directives of the Sindh Government.
+{description}
         </p>
         <div className="stats">
           <div>
@@ -60,31 +60,9 @@ const Notification = () => {
                   <circle strokeWidth="2" r="9" cy="12" cx="12"></circle>
                 </g>
               </svg>
-              Feb 24
+              {issueDate.month} {issueDate.day}
             </div>
-            <div>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-              >
-                <g strokeWidth="0" id="SVGRepo_bgCarrier"></g>
-                <g
-                  strokeLinejoin="round"
-                  strokeLinecap="round"
-                  id="SVGRepo_tracerCarrier"
-                ></g>
-                <g id="SVGRepo_iconCarrier">
-                  <path
-                    strokeLinejoin="round"
-                    strokeLinecap="round"
-                    strokeWidth="1.5"
-                    d="M16 10H16.01M12 10H12.01M8 10H8.01M3 10C3 4.64706 5.11765 3 12 3C18.8824 3 21 4.64706 21 10C21 15.3529 18.8824 17 12 17C11.6592 17 11.3301 16.996 11.0124 16.9876L7 21V16.4939C4.0328 15.6692 3 13.7383 3 10Z"
-                  ></path>
-                </g>
-              </svg>
-              18
-            </div>
+           
             <div>
               <svg
                 fill="#000000"

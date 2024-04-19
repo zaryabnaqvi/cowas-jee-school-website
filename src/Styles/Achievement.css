@@ -20,7 +20,7 @@
         /* overflow-wrap: break-word; */
         height: auto;
         margin: 1rem 0 0 0;
-        justify-content: start;
+        justify-content: flex-start;
         padding: 1rem;
         position: relative;
         cursor: pointer;

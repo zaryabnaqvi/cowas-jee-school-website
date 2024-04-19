@@ -3,7 +3,7 @@ import AchievementCard from '../Components/AchievementCard';
 import '../Styles/Info.css';
 import '../Styles/Achievement.css';
 
-export default function Achievement() {
+export default function Events() {
     const [achievements, setAchievements] = useState([]);
     const [years, setYears] = useState([]);
 
@@ -13,7 +13,7 @@ export default function Achievement() {
 
     const fetchAchievements = async () => {
         try {
-            const response = await fetch('http://127.0.0.1:8080/achievement');
+            const response = await fetch('http://127.0.0.1:8080/event');
             if (!response.ok) {
                 throw new Error('Failed to fetch data');
             }
@@ -30,7 +30,7 @@ export default function Achievement() {
         <div className="info-section" id="services">
             <div className="info-title-content pt-5">
                 <h3 className="info-title pt-5">
-                    <span>Achievements</span>
+                    <span>Events</span>
                 </h3>
                 <p className="info-description">
                     Stay connected and informed with our school notifications! Get timely updates on events, announcements,
@@ -41,7 +41,7 @@ export default function Achievement() {
 
             {years.map(year => (
                 <div key={year} className="container">
-                    <h1 className="heading-acc">Achievements of {year}</h1>
+                    <h1 className="heading-acc">Events of {year}</h1>
                     <div className="item-container">
                         {achievements.filter(achievement => achievement.year === year).map((item, idx) => (
                             <div key={idx} className="item-acc my-2">
@@ -51,7 +51,7 @@ export default function Achievement() {
                     </div>
                 </div>
             ))}
-            {achievements.length === 0 && <p>No achievements found</p>}
+            {achievements.length === 0 && <p>No events found</p>}
         </div>
     );
 }
