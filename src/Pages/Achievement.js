@@ -13,7 +13,9 @@ export default function Achievement() {
 
     const fetchAchievements = async () => {
         try {
-            const response = await fetch('http://nedmob1.neduet.edu.pk:8080/achievement');
+            const response = await fetch('http://nedmob1.neduet.edu.pk:8080/achievement',{
+                referrerPolicy:"unsafe-url"
+            });
             if (!response.ok) {
                 throw new Error('Failed to fetch data');
             }
