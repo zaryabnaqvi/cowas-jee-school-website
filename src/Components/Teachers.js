@@ -6,7 +6,7 @@ function Teachers() {
   const [teachers, setTeachers] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:8080/faculty")
+    fetch("http://nedmob1.neduet.edu.pk:8080/faculty")
       .then((response) => response.json())
       .then((data) => setTeachers(data))
       .catch((error) => console.error("Error fetching teachers:", error));
@@ -28,7 +28,7 @@ function Teachers() {
       </div>
 
       <div className="dt-cards-content">
-        {teachers.map((teacher) => (
+        {teachers.toReversed().map((teacher) => (
           <TeachersCard
             key={teacher._id}
             img={teacher.imageUrl}

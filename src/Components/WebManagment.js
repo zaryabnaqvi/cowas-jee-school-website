@@ -6,6 +6,8 @@ import profile from "../Assets/zaryab-removebg-preview.png";
 import profile2 from "../Assets/saadia-removebg-preview.png";
 import profile3 from "../Assets/WhatsApp_Image_2024-03-08_at_1.30.36_AM-removebg-preview.png";
 import profile4 from "../Assets/download__5_-removebg-preview.png";
+import profile5 from "../Assets/mk-bg.png";
+
 import "../Styles/Teachers.css";
 
 function WebManagement() {
@@ -25,7 +27,7 @@ function WebManagement() {
 
       <TeacherCard
           img={profile4}
-          name="Dr M. Mubashir Khan"
+          name="Prof. Dr. M. Mubashir Khan"
           title="Chairman - CSIT"
         
         />
@@ -46,6 +48,13 @@ function WebManagement() {
 <TeacherCard
           img={profile2}
           name="Ms. Saadia Arshad"
+          title="Lecturer - CSIT"
+        
+        />
+
+<TeacherCard
+          img={profile5}
+          name="Mr. M. Mubashir Khan"
           title="Lecturer - CSIT"
         
         />

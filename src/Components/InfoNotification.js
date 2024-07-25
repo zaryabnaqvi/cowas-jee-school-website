@@ -10,7 +10,7 @@ function InfoNotification() {
 
   useEffect(() => {
       // Fetch data from the API endpoint
-      fetch('http://127.0.0.1:8080/notifications')
+      fetch('http://nedmob1.neduet.edu.pk:8080/notifications')
           .then(response => response.json())
           .then(data => {
               setNotifications(data)

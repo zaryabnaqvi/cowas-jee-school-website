@@ -1,6 +1,7 @@
 {
   "name": "ned-cowas-jee",
   "version": "0.1.0",
+  "proxy":"http://nedmob1.neduet.edu.pk:8080",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.3",

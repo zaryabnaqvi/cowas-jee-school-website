@@ -8,7 +8,9 @@ export default function Accouncements() {
 
     useEffect(() => {
         // Fetch data from the API endpoint
-        fetch('http://127.0.0.1:8080/notifications')
+        fetch('https://nedmob1.neduet.edu.pk:8080/notifications',{
+            referrerPolicy:"unsafe-url"
+        })
             .then(response => response.json())
             .then(data => {
                 setNotifications(data)

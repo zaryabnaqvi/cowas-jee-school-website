@@ -35,7 +35,7 @@ const ResponsiveImageGallery = () => {
 
   const fetchAchievements = async () => {
       try {
-          const response = await fetch('http://127.0.0.1:8080/achievement');
+          const response = await fetch('https://nedmob1.neduet.edu.pk:8080/achievement');
           if (!response.ok) {
               throw new Error('Failed to fetch data');
           }
@@ -64,7 +64,7 @@ const ResponsiveImageGallery = () => {
 
   const fetchevents = async () => {
       try {
-          const response = await fetch('http://127.0.0.1:8080/event');
+          const response = await fetch('https://nedmob1.neduet.edu.pk:8080/event');
           if (!response.ok) {
               throw new Error('Failed to fetch data');
           }
