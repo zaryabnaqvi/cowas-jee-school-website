@@ -111,7 +111,7 @@ function Navbar() {
             </Link>
           </li>
           <li>
-            <a onClick={openNav} href="#reviews">
+            <a onClick={openNav} href="/Events">
               Events
             </a>
           </li>
@@ -121,7 +121,7 @@ function Navbar() {
             </Link>
           </li>
           <li>
-            <Link onClick={openNav} to="/Events">
+            <Link onClick={openNav} to="/gallery">
               Gallery
             </Link>
           </li>
