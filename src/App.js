@@ -17,10 +17,10 @@ function App() {
   return (
     <div className="App">
       <Router >
-      <Navbar />
+      
         <Routes  >
-          
-          <Route path="/" element={<Home />} />
+        <Route path="/" element={<NotFound />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/gallery" element={<ResponsiveImageGallery />} />
           <Route path="/accouncements" element={<Accouncements/>} />
           <Route path="/achievement" element={<Achievement/>} />
@@ -29,12 +29,12 @@ function App() {
           <Route path="/about" element={<About/>} />
 
           <Route path="/legal" element={<Legal />} />
-          
-          <Route path="/appointment" element={<Appointment />} />
+{/*           
+          <Route path="/appointment" element={<Appointment />} /> */}
           <Route path="*" element={<NotFound />} />
         </Routes>
 
-        <Footer />
+        
       </Router>
     </div>
   );

@@ -2,12 +2,16 @@ import React, { useState, useEffect } from 'react';
 import AchievementCard from '../Components/AchievementCard';
 import '../Styles/Info.css';
 import '../Styles/Achievement.css';
+import Footer from '../Components/Footer';
+import Navbar from '../Components/Navbar';
+// import { Navbar } from 'react-bootstrap';
 
 export default function Events() {
     const [achievements, setAchievements] = useState([]);
     const [years, setYears] = useState([]);
-
+    useEffect(()=>{window.scrollTo(0,0)},[])
     useEffect(() => {
+        
         fetchAchievements();
     }, []);
 
@@ -27,7 +31,10 @@ export default function Events() {
     };
 
     return (
+        <>
+        <Navbar />
         <div className="info-section" id="services">
+            
             <div className="info-title-content pt-5">
                 <h3 className="info-title pt-5">
                     <span>Events</span>
@@ -52,6 +59,11 @@ export default function Events() {
                 </div>
             ))}
             {achievements.length === 0 && <p>No events found</p>}
+
+            
         </div>
+
+        <Footer/>
+        </>
     );
 }

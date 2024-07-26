@@ -6,10 +6,9 @@ function NotFound() {
   const location = useLocation();
 
   return (
-    <div>
-      <h1>Page Not Found</h1>
-      <p>The requested URL {deployedURL} was not found on this server.</p>
-      <p>The requested URL {location.pathname} was not found on this server.</p>
+    <div style={{display:'flex',minHeight:"100vh",justifyContent:"center",alignItems:"center"}}>
+      <div style={{fontSize:"6rem",textAlign:"center"}}>Comming Soon</div>
+     
     </div>
   );
 }

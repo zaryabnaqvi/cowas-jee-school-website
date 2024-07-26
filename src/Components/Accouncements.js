@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import '../Styles/Info.css';
 import "../Styles/acc.css";
+import Navbar from './Navbar';
+import Footer from './Footer';
 
 export default function Accouncements() {
     const [notifications, setNotifications] = useState([]);
@@ -8,6 +10,7 @@ export default function Accouncements() {
 
     useEffect(() => {
         // Fetch data from the API endpoint
+        window.scrollTo(0,0)
         fetch('https://nedmob1.neduet.edu.pk:8080/notifications',{
             referrerPolicy:"unsafe-url"
         })
@@ -23,6 +26,7 @@ export default function Accouncements() {
 
     return (
         <>
+        <Navbar></Navbar>
             <div className='section-container'>
 
                 <div className="info-section" id="">
@@ -97,6 +101,8 @@ export default function Accouncements() {
                    
                 </div>
             </div>
+
+            <Footer/>
         </>
     );
 }

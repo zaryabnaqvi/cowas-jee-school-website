@@ -9,14 +9,20 @@ import SchoolHistory from '../Components/SchoolHistory';
 import Teachers from '../Components/Teachers';
 import Executive from '../Components/ExecutiveBodys';
 import WebManagement from '../Components/WebManagment';
+import Navbar from '../Components/Navbar';
+import Footer from '../Components/Footer';
 
 export default function About() {
+
+    useEffect(()=>{window.scrollTo(0,0)},[])
    
   
 
     return (
         
         <div className="" id="services">
+
+            <Navbar/>
 
 <section className='l-section wpb_row height_medium full_height valign_center container-fluid'>
                 <div className="l-section-img16" data-img-width="1920" data-img-height="1080" ></div>
@@ -62,7 +68,7 @@ export default function About() {
 <Teachers />
 <WebManagement/>
 
-            
+            <Footer/>
         </div>
     );
 }

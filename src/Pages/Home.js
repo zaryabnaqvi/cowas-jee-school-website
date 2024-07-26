@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Navbar from "../Components/Navbar";
 import Hero from "../Components/Hero";
 import Info from "../Components/Info";
@@ -10,9 +10,11 @@ import Footer from "../Components/Footer";
 import InfoNotification from '../Components/InfoNotification'
 
 function Home() {
+
+  useEffect(()=>{window.scrollTo(0,0)},[])
   return (
     <div className="home-section">
-      
+      <Navbar />
       <Hero />
       {/* <Info />
        */}
@@ -21,6 +23,7 @@ function Home() {
       <BookAppointment />
       <Reviews />
       <Teachers />
+      <Footer/>
       
     </div>
   );
