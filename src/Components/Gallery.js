@@ -79,9 +79,11 @@ const ResponsiveImageGallery = () => {
   };
 
   return (
+<>
+ <Navbar/>
     <div className="info-section ">
 
-      <Navbar/>
+     
       <div className="info-title-content pt-5">
         <h3 className="info-title pt-5">
           <span>Gallery</span>
@@ -165,8 +167,10 @@ return(<img src={achievement.imageUrl} className="img-responsive" onClick={() =>
 
         
       )}
-      <Footer/>
+      
     </div>
+<Footer/>
+</>
   );
 };
 
