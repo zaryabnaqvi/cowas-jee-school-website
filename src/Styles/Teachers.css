@@ -46,7 +46,7 @@
 }
 .dt-card {
     width: 332px;
-    height: 400px;
+    min-height: 400px;
     gap: 32px;
     text-align: left;
     font-family: 'Rubik', sans-serif;
