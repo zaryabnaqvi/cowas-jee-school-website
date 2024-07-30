@@ -6,6 +6,8 @@ import profile from "../Assets/prof_dr_mirza_mahmood_baig-removebg-preview.png";
 import profile2 from "../Assets/registrar-removebg-preview.png";
 import profile3 from "../Assets/wasiuddin_2.png";
 import profile4 from "../Assets/m6-removebg-preview.png";
+import profile5 from "../Assets/noman.jpg";
+
 import "../Styles/Teachers.css";
 
 function Executive() {
@@ -47,6 +49,14 @@ function Executive() {
           img={profile2}
           name="Ghanzanffar Hussain"
           title="Registrar"
+          stars="4.8"
+          reviews="500"
+        />
+
+<TeacherCard
+          img={profile5}
+          name="Syed Muhammad Noaman"
+          title="Administrator"
           stars="4.8"
           reviews="500"
         />
