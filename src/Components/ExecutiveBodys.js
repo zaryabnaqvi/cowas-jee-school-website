@@ -1,7 +1,7 @@
 import React from "react";
 import TeacherCard from "./TeachersCard";
 import profile1 from "../Assets/profile-1.png";
-import profile from "../Assets/prof_dr_mirza_mahmood_baig-removebg-preview.png";
+import profile from "../Assets/mmb.jpeg";
 
 import profile2 from "../Assets/registrar-removebg-preview.png";
 import profile3 from "../Assets/wasiuddin_2.png";
