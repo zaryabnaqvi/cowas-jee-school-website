@@ -51,6 +51,17 @@ function Navbar() {
             About
           </Link>
         </li>
+        <li class="dropdown">
+       
+        <Link class="navbar-links">Faculty</Link>
+  <div class="dropdown-content">
+    <a href="#">Teaching</a>
+    <a href="#">Non-Teaching</a>
+    {/* <a href="#">Teaching</a> */}
+  </div>
+
+        </li>
+
         <li>
           <Link to="/achievement" className="navbar-links">
             Achievements
@@ -103,6 +114,16 @@ function Navbar() {
           <li>
             <Link onClick={openNav} to="/about">
               About
+            </Link>
+          </li>
+          <li>
+            <Link onClick={openNav} to="/about">
+              Non-Teaching Member
+            </Link>
+          </li>
+          <li>
+            <Link onClick={openNav} to="/about">
+              Teaching Member
             </Link>
           </li>
           <li>

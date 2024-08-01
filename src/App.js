@@ -12,6 +12,7 @@ import Accouncements from "./Components/Accouncements";
 import Achievement from "./Pages/Achievement";
 import About from "./Pages/About";
 import Events from "./Pages/Events";
+import FacultyList from "./Pages/Faculty";
 
 function App() {
   return (
@@ -27,6 +28,8 @@ function App() {
           <Route path="/Events" element={<Events/>} />
 
           <Route path="/about" element={<About/>} />
+          <Route path="/faculty-list" element={<FacultyList/>} />
+
 
           {/* <Route path="/legal" element={<Legal />} /> */}
 {/*           
