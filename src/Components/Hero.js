@@ -90,7 +90,7 @@ function Hero() {
 
         <div className="hero-image-section">
           <Tilt>
-          <img className="hero-image1" style={{backgroundColor:"white",padding:'1rem'}} src={ImageSchool1} alt="Doctor" />
+          <img className="hero-image1" style={{backgroundColor:"white"}} src={ImageSchool1} alt="Doctor" />
           </Tilt>
         </div>
       </div>
