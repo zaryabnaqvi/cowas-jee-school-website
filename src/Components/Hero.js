@@ -9,7 +9,7 @@ import "../Styles/About.css";
 import Image1 from '../Assets/pixelcut-export.png'
 import {Tilt} from "react-tilt";
 import ImageSchool from '../Assets/NEDUET_logo.svg (1).png'
-import ImageSchool1 from '../Assets/logo-green.png'
+import ImageSchool1 from '../Assets/logo-green-removebg-preview.png'
 
 
 

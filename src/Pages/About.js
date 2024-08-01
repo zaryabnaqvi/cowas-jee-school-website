@@ -4,7 +4,7 @@ import '../Styles/Info.css';
 import '../Styles/Achievement.css';
 import '../Styles/SchoolHistory.css'
 import Info from '../Components/Info';
-import moduleName from '../Assets/pixelcut-export.png'
+import moduleName from '../Assets/logo-green-removebg-preview.png'
 import SchoolHistory from '../Components/SchoolHistory';
 import Teachers from '../Components/Teachers';
 import Executive from '../Components/ExecutiveBodys';
