@@ -11,7 +11,7 @@ import { toast } from "react-toastify";
 
 
 import Logo from "../Assets/logo.png"
-import schoolLogo from "../Assets/pixelcut-export.png"
+import schoolLogo from "../Assets/logo-green.png"
 function Navbar() {
   const [nav, setNav] = useState(false);
   const [isButtonDisabled, setIsButtonDisabled] = useState(false);
