@@ -17,7 +17,7 @@ const NonFacultyTable = () => {
     }, []);
 
     return (
-        <table className="faculty-table">
+        <table className="faculty-table mb-5">
             <thead>
                 <tr>
                     <th>Name</th>
