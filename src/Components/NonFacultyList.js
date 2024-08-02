@@ -2,11 +2,11 @@ import React, { useEffect, useState } from 'react';
 import '../Styles/FacultyList.css';
 import axios from 'axios';
 
-const FacultyTable = () => {
+const NonFacultyTable = () => {
     const [data, setData] = useState([]);
 
     useEffect(() => {
-        axios.get('https://nedmob1.neduet.edu.pk:8080/teachingFaculty')
+        axios.get('https://nedmob1.neduet.edu.pk:8080/nonteachingFaculty')
             .then(response => {
                 setData(response.data);
                 console.log(response.data)
@@ -17,7 +17,7 @@ const FacultyTable = () => {
     }, []);
 
     return (
-        <table className="faculty-table mb-5">
+        <table className="faculty-table">
             <thead>
                 <tr>
                     <th>Name</th>
@@ -40,11 +40,7 @@ const FacultyTable = () => {
                                 <p>{item.description}</p>
                             </div>
                         </td>
-                        <td >
-                            <a style={{zIndex:100,cursor:"pointer"}} target='_blank' href={item?.imageUrl}>
-                                View CV
-                            </a>
-                            </td>
+                        <td> <a target='_blank' href={item.imageUrl}>View CV</a></td>
                     </tr>
                 ))}
             </tbody>
@@ -52,4 +48,4 @@ const FacultyTable = () => {
     );
 };
 
-export default FacultyTable;
+export default NonFacultyTable;

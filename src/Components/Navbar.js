@@ -53,10 +53,10 @@ function Navbar() {
         </li>
         <li class="dropdown">
        
-        <Link class="navbar-links">Faculty</Link>
+        <Link to={"/faculty/Teaching"} class="navbar-links">Faculty</Link>
   <div class="dropdown-content">
-    <a href="#">Teaching</a>
-    <a href="#">Non-Teaching</a>
+    <Link to="/faculty/Teaching">Teaching</Link>
+    <Link to="/faculty/NonTeaching">Non-Teaching</Link>
     {/* <a href="#">Teaching</a> */}
   </div>
 
@@ -117,12 +117,12 @@ function Navbar() {
             </Link>
           </li>
           <li>
-            <Link onClick={openNav} to="/about">
+            <Link onClick={openNav} to="/faculty/NonTeaching">
               Non-Teaching Member
             </Link>
           </li>
           <li>
-            <Link onClick={openNav} to="/about">
+            <Link onClick={openNav} to="/faculty/Teaching">
               Teaching Member
             </Link>
           </li>

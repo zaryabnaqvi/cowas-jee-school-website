@@ -12,10 +12,6 @@
     padding: 8px;
     vertical-align: top;
   }
-
-  .faculty-table td a{
-    cursor: pointer;
-  }
   
   .faculty-table th {
     background-color: #f2f2f2;

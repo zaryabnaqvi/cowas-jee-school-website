@@ -12,8 +12,9 @@ import WebManagement from '../Components/WebManagment';
 import Navbar from '../Components/Navbar';
 import Footer from '../Components/Footer';
 import FacultyList from '../Components/FacultyList';
+import NonFacultyTable from '../Components/NonFacultyList';
 
-export default function Faculty() {
+export default function NonFaculty() {
 
     useEffect(()=>{window.scrollTo(0,0)},[])
    
@@ -21,24 +22,21 @@ export default function Faculty() {
 
     return (
         
-        <div >
+        <div className="" id="services">
 
             <Navbar/>
 
-<section style={{minheight:"100vh!important"}} className=' wpb_row  full_height valign_center container-fluid'>
-               
-              
-            <div  className="info-title-content pt-5  text-center">
-
-
+<section className=' wpb_row height_medium full_height valign_center container-fluid'>
+                <div className="l-section-img16" data-img-width="1920" data-img-height="1080" ></div>
+                <div className="l-section-overlay" ></div>
+            <div className="info-title-content pt-5 text-center">
                 <h3 className="info-title pt-5">
-                    <span>Teaching Faculty</span>
+                    <span>Non-teaching Faculty (Management)</span>
                 </h3>
 
-                <FacultyList/>
+                <NonFacultyTable/>
 
             </div>
-
 
             </section>
 

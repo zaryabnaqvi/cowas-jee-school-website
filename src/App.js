@@ -13,6 +13,7 @@ import Achievement from "./Pages/Achievement";
 import About from "./Pages/About";
 import Events from "./Pages/Events";
 import FacultyList from "./Pages/Faculty";
+import NonFaculty from "./Pages/NonFaculty";
 
 function App() {
   return (
@@ -28,7 +29,9 @@ function App() {
           <Route path="/Events" element={<Events/>} />
 
           <Route path="/about" element={<About/>} />
-          <Route path="/faculty-list" element={<FacultyList/>} />
+          <Route path="/faculty/Teaching" element={<FacultyList/>} />
+          <Route path="/faculty/NonTeaching" element={<NonFaculty/>} />
+
 
 
           {/* <Route path="/legal" element={<Legal />} /> */}
