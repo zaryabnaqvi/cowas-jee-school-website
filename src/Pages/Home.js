@@ -22,7 +22,7 @@ function Home() {
       <About />
       <BookAppointment />
       <Reviews />
-      <Teachers />
+     
       <Footer/>
       
     </div>
