@@ -65,7 +65,7 @@ export default function About() {
 
 <SchoolHistory></SchoolHistory>
 <Executive/>
-<Teachers />
+
 <WebManagement/>
 
             <Footer/>
