@@ -15,7 +15,7 @@ function Executive() {
     <div className="doctor-section" id="Executive">
       <div className="dt-title-content">
         <h3 className="dt-title">
-          <span>Meet Our Executives</span>
+          <span>Meet Our Management Team</span>
         </h3>
 
         <p className="dt-description">
