@@ -5,7 +5,7 @@ import profile from "../Assets/zaryab-removebg-preview.png";
 
 import profile2 from "../Assets/saadia-removebg-preview.png";
 import profile3 from "../Assets/WhatsApp_Image_2024-03-08_at_1.30.36_AM-removebg-preview.png";
-import profile4 from "../Assets/download__5_-removebg-preview.png";
+import profile4 from "../Assets/DR MMK.jpeg";
 import profile5 from "../Assets/mk-bg.png";
 
 import "../Styles/Teachers.css";

@@ -5,8 +5,8 @@ import profile from "../Assets/mmb.jpeg";
 
 import profile2 from "../Assets/registrar-removebg-preview.png";
 import profile3 from "../Assets/wasiuddin_2.png";
-import profile4 from "../Assets/m6-removebg-preview.png";
-import profile5 from "../Assets/noman.jpg";
+import profile4 from "../Assets/noman.jpg";
+import profile5 from "../Assets/IMG-20240729-WA0038 (1).jpg";
 
 import "../Styles/Teachers.css";
 
@@ -31,27 +31,18 @@ function Executive() {
           stars="4.9"
           reviews="1800"
         />
-        <TeacherCard
-          img={profile3}
-          name="Engr. Syed Wasiuddin "
-          title="Director Services"
-          stars="4.8"
-          reviews="700"
-        />
+
+
+
         <TeacherCard
           img={profile4}
-          name="Muhammad Sajeeruddin"
-          title="Director Finance"
-          stars="4.7"
-          reviews="450"
+          name=" Muhammad Aamir Khan"
+          title="Principal"
+          stars="4.9"
+          reviews="1800"
         />
-        <TeacherCard
-          img={profile2}
-          name="Ghanzanffar Hussain"
-          title="Registrar"
-          stars="4.8"
-          reviews="500"
-        />
+     
+    
 
 <TeacherCard
           img={profile5}
