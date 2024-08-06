@@ -15,7 +15,9 @@ function Executive() {
     <div className="doctor-section" id="Executive">
       <div className="dt-title-content">
         <h3 className="dt-title">
-          <span>Meet Our Management Team</span>
+
+          <span>Administrative Staff</span>
+
         </h3>
 
         <p className="dt-description">
@@ -26,28 +28,28 @@ function Executive() {
       <div className="dt-cards-content">
         <TeacherCard
           img={profile}
-          name="Dr Mirza Mahmood Baig"
-          title="Chairman"
+          name="Prof. Dr. Mirza Mahmood Baig"
+          title="School Convenor"
           stars="4.9"
           reviews="1800"
         />
 
 
 
-        <TeacherCard
+        {/* <TeacherCard
           img={profile4}
           name=" Muhammad Aamir Khan"
           title="Principal"
           stars="4.9"
           reviews="1800"
-        />
+        /> */}
      
     
 
 <TeacherCard
           img={profile5}
           name="Syed Muhammad Noaman"
-          title="Administrator"
+          title="Administrator School"
           stars="4.8"
           reviews="500"
         />

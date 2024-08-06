@@ -34,7 +34,7 @@ function Navbar() {
     <div className="navbar-section">
       <h1 className="navbar-title">
         <img className="logo" src={schoolLogo}/>
-        <Link to="/">
+        <Link to="/home">
           The Cowasjee
         </Link>
       </h1>
@@ -42,7 +42,7 @@ function Navbar() {
       {/* Desktop */}
       <ul className="navbar-items">
         <li>
-          <Link to="/" className="navbar-links">
+          <Link to="/home" className="navbar-links">
             Home
           </Link>
         </li>
@@ -107,7 +107,7 @@ function Navbar() {
 
         <ul className="mobile-navbar-links">
           <li>
-            <Link onClick={openNav} to="/">
+            <Link onClick={openNav} to="/home">
               Home
             </Link>
           </li>
