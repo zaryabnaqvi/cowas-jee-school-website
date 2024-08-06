@@ -40,7 +40,7 @@ function WebManagement() {
         />
         <TeacherCard
           img={profile3}
-          name="Syed Muhammad Jawwad"
+          name="Muhammad Jawwad"
           title="Undergraduate - CSIT"
          
         />
