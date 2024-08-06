@@ -32,19 +32,7 @@ function WebManagement() {
         
         />
        
-        <TeacherCard
-          img={profile}
-          name="Syed Muhammad Zaryab"
-          title="Undergraduate - CSIT"
-          
-        />
-        <TeacherCard
-          img={profile3}
-          name="Muhammad Jawwad"
-          title="Undergraduate - CSIT"
-         
-        />
-
+      
 <TeacherCard
           img={profile2}
           name="Ms. Saadia Arshad"
@@ -58,6 +46,20 @@ function WebManagement() {
           title="Lecturer - CSIT"
         
         />
+
+<TeacherCard
+          img={profile}
+          name="Syed Muhammad Zaryab"
+          title="Undergraduate - CSIT"
+          
+        />
+        <TeacherCard
+          img={profile3}
+          name="Muhammad Jawwad"
+          title="Undergraduate - CSIT"
+         
+        />
+
 
 
 

@@ -24,7 +24,7 @@ function Hero() {
   };
 
   const handleBookAppointmentClick = () => {
-    navigate("/appointment");
+    navigate("/Notifications");
   };
 
   useEffect(() => {
@@ -49,7 +49,7 @@ function Hero() {
 
 
 
-      <section className='l-section wpb_row height_medium full_height valign_center container-fluid'>
+      <section style={{minHeight:"110vh"}} className='l-section wpb_row height_medium full_height valign_center container-fluid'>
                 <div className="l-section-img2" data-img-width="1920" data-img-height="1080" ></div>
                 <div className="l-section-overlay" style={{ background: 'linear-gradient(0deg,#000000,rgba(109, 89, 89, 0))' }}></div>
             <div className="info-title-content text-center">
@@ -67,6 +67,7 @@ function Hero() {
             className="text-appointment-btn"
             type="button"
             onClick={handleBookAppointmentClick}
+            style={{zIndex:999}}
           >
             <FontAwesomeIcon icon={faCalendarCheck} /> Get Instant Notifications
           </button>

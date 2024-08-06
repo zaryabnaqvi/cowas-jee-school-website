@@ -12,7 +12,7 @@ function BookAppointment() {
   const navigate = useNavigate();
 
   const handleBookAppointmentClick = () => {
-    navigate("/accouncements");
+    navigate("/Notifications");
   };
 
   return (
@@ -23,7 +23,7 @@ function BookAppointment() {
 
       <div className="ba-text-content">
         <h3 className="ba-title">
-          <span>Why Choose The Cowas jee </span>
+          <span>Why Choose The Cowasjee School </span>
         </h3>
         <p className="ba-description">
           
@@ -48,7 +48,7 @@ Discover the reasons to choose The Cowasjee School for your educational needs. E
           type="button"
           onClick={handleBookAppointmentClick}
         >
-          <FontAwesomeIcon icon={faCalendarCheck} /> Get Enrolled
+          <FontAwesomeIcon icon={faCalendarCheck} /> Get Notifications
         </button>
       </div>
     </div>

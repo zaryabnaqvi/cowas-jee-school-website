@@ -14,6 +14,7 @@ import About from "./Pages/About";
 import Events from "./Pages/Events";
 import FacultyList from "./Pages/Faculty";
 import NonFaculty from "./Pages/NonFaculty";
+import Inaugration from "./Pages/Inaugration";
 
 function App() {
   return (
@@ -24,9 +25,11 @@ function App() {
         <Route path="/" element={<NotFound />} />
           <Route path="/home" element={<Home />} />
           <Route path="/gallery" element={<ResponsiveImageGallery />} />
-          <Route path="/accouncements" element={<Accouncements/>} />
+          <Route path="/notifications" element={<Accouncements/>} />
           <Route path="/achievement" element={<Achievement/>} />
           <Route path="/Events" element={<Events/>} />
+          {/* <Route path="/" element={<Inaugration/>} /> */}
+
 
           <Route path="/about" element={<About/>} />
           <Route path="/faculty/Teaching" element={<FacultyList/>} />

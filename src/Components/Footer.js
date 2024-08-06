@@ -71,16 +71,16 @@ function Footer() {
         <div className="ft-list" id="contact">
           <p className="ft-list-title">Talk To Us</p>
           <ul className="ft-list-items">
-            <li>
+            {/* <li>
               <a href="mailto:support@healthplus.com">support@cowasjeeschool.com</a>
-            </li>
+            </li> */}
             <li>
-              <a href="mailto:appointment@healthplus.com">
+              {/* <a href="mailto:appointment@healthplus.com">
               help@cowasjeeschool.com
-              </a>
+              </a> */}
             </li>
             <li>
-              <a href="tel:+022 5454 5252">+92 3322270913</a>
+              <a href="tel:+022 5454 5252">923322270913</a>
             </li>
             <li>
               <a href="tel:+022 2326 6232">992612612440</a>

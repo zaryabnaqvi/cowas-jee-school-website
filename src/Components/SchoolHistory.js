@@ -9,7 +9,7 @@ export default function SchoolHistory() {
             const screenWidth = window.innerWidth
             if (screenWidth >= 768) {
                 const parallaxContainer = document.querySelector('.l-section-img2');
-                parallaxContainer.style.backgroundPositionY = `${scrollPosition}px`;
+                parallaxContainer.style.backgroundPositionY = `${scrollPosition-50}px`;
 
 
                 

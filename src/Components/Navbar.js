@@ -73,8 +73,8 @@ function Navbar() {
           </Link>
         </li>
         <li>
-          <Link to="/accouncements" className="navbar-links">
-            Announcements
+          <Link to="/notifications" className="navbar-links">
+          Notifications
           </Link>
         </li>
         <li>
@@ -137,8 +137,8 @@ function Navbar() {
             </a>
           </li>
           <li>
-            <Link onClick={openNav} to="/accouncements">
-              Accouncements
+            <Link onClick={openNav} to="/notifications">
+            Notifications
             </Link>
           </li>
           <li>
