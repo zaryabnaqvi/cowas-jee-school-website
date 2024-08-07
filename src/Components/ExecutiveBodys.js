@@ -36,13 +36,13 @@ function Executive() {
 
 
 
-        {/* <TeacherCard
+        <TeacherCard
           img={profile4}
           name=" Muhammad Aamir Khan"
-          title="Principal"
+          title="School Principal"
           stars="4.9"
           reviews="1800"
-        /> */}
+        />
      
     
 

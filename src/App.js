@@ -14,7 +14,6 @@ import About from "./Pages/About";
 import Events from "./Pages/Events";
 import FacultyList from "./Pages/Faculty";
 import NonFaculty from "./Pages/NonFaculty";
-import Inaugration from "./Pages/Inaugration";
 
 function App() {
   return (
