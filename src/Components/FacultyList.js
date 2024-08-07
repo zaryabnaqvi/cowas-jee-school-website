@@ -41,7 +41,7 @@ const FacultyTable = () => {
                             </div>
                         </td>
                         <td >
-                            <a style={{zIndex:100,cursor:"pointer"}} target='_blank' href={item?.imageUrl}>
+                            <a style={{zIndex:100,cursor:"pointer"}}  href={item?.imageUrl} download>
                                 View CV
                             </a>
                             </td>

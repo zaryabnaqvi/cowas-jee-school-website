@@ -40,7 +40,7 @@ const NonFacultyTable = () => {
                                 <p>{item.description}</p>
                             </div>
                         </td>
-                        <td> <a target='_blank' href={item.imageUrl}>View CV</a></td>
+                        <td> <a  href={item.imageUrl} download>View CV</a></td>
                     </tr>
                 ))}
             </tbody>

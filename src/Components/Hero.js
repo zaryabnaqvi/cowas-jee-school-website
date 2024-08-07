@@ -49,7 +49,7 @@ function Hero() {
 
 
 
-      <section style={{minHeight:"110vh"}} className='l-section wpb_row height_medium full_height valign_center container-fluid'>
+      <section className='l-section wpb_row height_medium full_height valign_center container-fluid'>
                 <div className="l-section-img2" data-img-width="1920" data-img-height="1080" ></div>
                 <div className="l-section-overlay" style={{ background: 'linear-gradient(0deg,#000000,rgba(109, 89, 89, 0))' }}></div>
             <div className="info-title-content text-center">
@@ -61,7 +61,7 @@ function Hero() {
           School of NEDUET
           </h2>
           <p className="text-descritpion">
-          The Cowasjee School, formerly known as NED School English Medium, opened under the managegement of NED University in 2009.
+          The Cowasjee School, formerly known as NED School English Medium, opened under the managegement of NED University in 2000.
           </p>
           <button
             className="text-appointment-btn"

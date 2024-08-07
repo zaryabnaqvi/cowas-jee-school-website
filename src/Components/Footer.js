@@ -15,7 +15,7 @@ function Footer() {
             The CowasJee
             </p>
             <p className="ft-description">
-            The Cowasjee School, formerly known as NED School English Medium, opened under the managegement of NED University in 2009.
+            The Cowasjee School, formerly known as NED School English Medium, opened under the managegement of NED University in 2000.
             </p>
           </div>
 
@@ -90,7 +90,7 @@ function Footer() {
       </div>
 
       <div className="ft-copyright">
-        <p>© 2009-2024 The Cowasjee. All rights reserved.</p>
+        <p>© 2000-2024 The Cowasjee. All rights reserved.</p>
 
         <ul className="ft-social-links">
           <li>
