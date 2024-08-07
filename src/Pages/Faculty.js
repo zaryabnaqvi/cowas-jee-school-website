@@ -15,36 +15,36 @@ import FacultyList from '../Components/FacultyList';
 
 export default function Faculty() {
 
-    useEffect(()=>{window.scrollTo(0,0)},[])
-   
-  
+    useEffect(() => { window.scrollTo(0, 0) }, [])
+
+
 
     return (
-        
+
         <div >
 
-            <Navbar/>
+            <Navbar />
 
-<section style={{minheight:"100vh!important"}} className=' wpb_row  full_height valign_center container-fluid'>
-               
-              
-            <div  className="info-title-content pt-5  text-center">
+            <section style={{ minheight: "100vh!important" }} className=' wpb_row  full_height valign_center container-fluid'>
 
 
-                <h3 className="info-title pt-5">
-                    <span>Teaching Faculty</span>
-                </h3>
+                <div className="info-title-content pt-5  text-center">
 
-                <FacultyList/>
 
-            </div>
+                    <h3 className="info-title pt-5">
+                        <span>Teaching Faculty</span>
+                    </h3>
+
+                    <FacultyList />
+
+                </div>
 
 
             </section>
 
 
 
-            <Footer/>
+            <Footer />
         </div>
     );
 }

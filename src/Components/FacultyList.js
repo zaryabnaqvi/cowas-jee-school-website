@@ -16,9 +16,9 @@ const FacultyTable = () => {
             });
     }, []);
 
-    const urlRedirect = (string) =>{
-        document.location.href=string
-    }
+    // const urlRedirect = (string) => {
+    //     document.location.href = string
+    // }
 
     return (
         <table className="faculty-table mb-5">
@@ -44,11 +44,7 @@ const FacultyTable = () => {
                                 <p>{item.description}</p>
                             </div>
                         </td>
-                        <td >
-                            <button style={{zIndex:100,cursor:"pointer"}} className='btn btn-primary'  onClick={()=>urlRedirect(item.imageUrl)}  >
-                                View CV
-                            </button>
-                            </td>
+                        <td> <a href={item.imageUrl} download>View CV</a></td>
                     </tr>
                 ))}
             </tbody>
