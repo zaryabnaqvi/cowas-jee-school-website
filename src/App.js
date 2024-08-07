@@ -22,7 +22,7 @@ function App() {
       <Router >
       
         <Routes  >
-        <Route path="/" element={<NotFound />} />
+        <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
           <Route path="/gallery" element={<ResponsiveImageGallery />} />
           <Route path="/notifications" element={<Accouncements/>} />
