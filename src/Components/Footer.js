@@ -41,7 +41,7 @@ function Footer() {
               <a href="/Events">Events</a>
             </li>
             <li>
-              <a href="/accouncements">Accouncements</a>
+              <a href="/notifications">Notifications</a>
             </li>
           </ul>
         </div>
