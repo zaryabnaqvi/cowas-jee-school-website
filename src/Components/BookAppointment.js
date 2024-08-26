@@ -27,7 +27,7 @@ function BookAppointment() {
         </h3>
         <p className="ba-description">
           
-Discover the reasons to choose The Cowasjee School for your educational needs. Experience expert guidance, convenience, and personalized solutions, with your academic success as our top priority. Join us on a journey to better learning and a brighter future.
+Discover the reasons to choose The Cowasjee School for your educational needs. Expert guidance, convenience, and personalized solutions, with your academic success as our top priority. Join us on a journey to better learning and a brighter future.
         </p>
 
         <p className="ba-checks ba-check-first">

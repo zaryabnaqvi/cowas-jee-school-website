@@ -6,7 +6,8 @@ import profile from "../Assets/mmb.jpeg";
 import profile2 from "../Assets/registrar-removebg-preview.png";
 import profile3 from "../Assets/wasiuddin_2.png";
 import profile4 from "../Assets/noman.jpg";
-import profile5 from "../Assets/IMG-20240729-WA0038 (1).jpg";
+import profile5 from "../Assets/dr_nouman.jpeg";
+// import profile5 from "../Assets/IMG-20240729-WA0038 (1).jpg";
 
 import "../Styles/Teachers.css";
 

@@ -19,52 +19,52 @@ function WebManagement() {
         </h3>
 
         <p className="dt-description">
-        The School Website is being managed by a CSIT Department Students.
+          The School Website is being managed by a CSIT Department Students.
         </p>
       </div>
 
       <div className="dt-cards-content">
 
-      <TeacherCard
+        <TeacherCard
           img={profile4}
           name="Prof. Dr. M. Mubashir Khan"
           title="Chairman - CSIT"
-        
+
         />
-       
-      
-<TeacherCard
+
+
+        <TeacherCard
           img={profile2}
           name="Ms. Saadia Arshad"
           title="Lecturer - CSIT"
-        
+
         />
 
-<TeacherCard
+        <TeacherCard
           img={profile5}
           name="Mr. M. Mubashir Khan"
           title="Lecturer - CSIT"
-        
+
         />
 
-<TeacherCard
+        <TeacherCard
           img={profile}
           name="Syed Muhammad Zaryab"
           title="Undergraduate - CSIT"
-          
+
         />
         <TeacherCard
           img={profile3}
           name="Muhammad Jawwad"
           title="Undergraduate - CSIT"
-         
+
         />
 
 
 
 
 
-       
+
       </div>
     </div>
   );

@@ -20,7 +20,7 @@ function About() {
         your trusted partner for accessible and personalized
         healthcare. Our expert teachers follow best educational
         practices and possess specialized skills in their areas,
-        prioritizing your student's learning. Join us on this
+        prioritizing your ward's learning. Join us on this
         journey towards your kid's better future.
         </p>
 
