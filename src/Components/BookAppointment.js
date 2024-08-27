@@ -1,5 +1,5 @@
 import React from "react";
-import Doctor from "../Assets/qwerty.jpg";
+import Doctor from "../Assets/homePageImg.jpeg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCircleCheck,
@@ -18,7 +18,8 @@ function BookAppointment() {
   return (
     <div className="ba-section">
       <div className="ba-image-content">
-        <img src={Doctor} alt="Doctor Group" className="ba-image1" />
+        <img src={Doctor} alt="Doctor Group" className="about-image1" />
+        {/* <img src={Doctor} alt="Doctor Group" className="ba-image1" /> */}
       </div>
 
       <div className="ba-text-content">
