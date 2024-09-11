@@ -96,19 +96,13 @@ const ResponsiveImageGallery = () => {
         <div id="gallery" className="container-fluid px-3">
 
           {achievements.map((achievement, index) => {
-
+            
             return (<img src={achievement.imageUrl} className="img-responsive" onClick={() => handleImageClick(achievement.imageUrl)} />)
 
           })}
           {events.map((event, index) => {
 
             return (<img src={event.imageUrl} className="img-responsive" onClick={() => handleImageClick(event.imageUrl)} />)
-
-          })}
-
-          {achievements.map((achievement, index) => {
-
-            return (<img src={achievement.imageUrl} className="img-responsive" onClick={() => handleImageClick(achievement.imageUrl)} />)
 
           })}
 

@@ -2,7 +2,7 @@ import React from "react";
 import Doctor from "../Assets/doctor-group.png";
 import SolutionStep from "./SolutionStep";
 import "../Styles/About.css";
-import ImageAbout from "../Assets/sport.jpg"
+import ImageAbout from "../Assets/home1.jpg"
 
 function About() {
   return (
